@@ -2,7 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# clone project and cd {project_name}
 
+```
+git clone git@github.com:GZ315200/chatbot-openai.git
+
+cd chatbot-openai
+```
 
 # Set Env
 
