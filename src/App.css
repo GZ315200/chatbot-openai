@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App-content {
+  width: 100%;
+  height: 100%;
+
+}
+
+.container {
+  margin: 20px
+}
+
+
+.prompt-title {
+    margin: 20px;
+    width: 500px
+}

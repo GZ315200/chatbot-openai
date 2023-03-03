@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+# Set Env
+
+open the `.env` file, and set your own OpenAI public API key, example:
+
+```
+REACT_APP_APP_KEY=xxxxxxxxx
+
+```
+
+
 ## Available Scripts
 
 In the project directory, you can run:
