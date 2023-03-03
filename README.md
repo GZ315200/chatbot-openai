@@ -21,7 +21,7 @@ REACT_APP_APP_KEY=xxxxxxxxx
 
 # Chat Page
 
-![提问界面](./public/FireShot%20Capture%20061%20-%20React%20App%20-%20localhost.png)
+![提问界面](./public/FireShot%20Capture%20062%20-%20React%20App%20-%20localhost.png)
 
 
 # github main page
