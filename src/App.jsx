@@ -5,7 +5,8 @@ import { Configuration, OpenAIApi } from "openai";
 import { useDispatch } from "react-redux";
 import { addChat } from "./Reducers/chatSlider";
 import { ListChatMsg } from "./ListChatMsg";
-
+import { GenerateImg } from './GenerateImg'
+ 
 const APP_KEY = process.env.REACT_APP_APP_KEY;
 
 
@@ -75,6 +76,7 @@ function App() {
       </button>
       {contentError ? <div className="error">{contentError}</div> : null}
       <ListChatMsg />
+      <GenerateImg openai={openai} />
     </div>
   );
 }
