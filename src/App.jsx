@@ -15,7 +15,7 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration);
 
-function App(props) {
+function App() {
   const [promptVal, setpromptVal] = useState("");
   const [ state, setState ] = useState({
     contentError: null
@@ -69,6 +69,7 @@ function App(props) {
         onChange={onChangeInput}
         onKeyDown={keyDownHandler}
       ></input>
+      <span style={{ margin: '20px' }}>试试Enter健</span>
       <button type="button" className="button" onClick={handleOnClick}>
         submit
       </button>
