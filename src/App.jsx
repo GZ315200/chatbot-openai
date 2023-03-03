@@ -76,6 +76,7 @@ function App() {
       </button>
       {contentError ? <div className="error">{contentError}</div> : null}
       <ListChatMsg />
+      <h2>Generate Anything Image, Have a fun!</h2>
       <GenerateImg openai={openai} />
     </div>
   );
