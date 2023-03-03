@@ -7,11 +7,11 @@ import { addChat } from "./Reducers/chatSlider";
 import { ListChatMsg } from "./ListChatMsg";
 import { GenerateImg } from './GenerateImg'
  
-const APP_KEY = process.env.REACT_APP_APP_KEY;
+const API_KEY = process.env.REACT_APP_API_KEY;
 
 
 const configuration = new Configuration({
-  apiKey: APP_KEY
+  apiKey: API_KEY
 });
 
 const openai = new OpenAIApi(configuration);
